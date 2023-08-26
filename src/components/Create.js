@@ -57,7 +57,7 @@ function Create() {
         <form key={index}>
           <div className="mb-3">
             <label htmlFor={`firstName${index}`} className="form-label">
-              Firstname
+              Firstname<span className="text-danger">*</span>
             </label>
             <input
               id={`firstName${index}`}
@@ -71,7 +71,7 @@ function Create() {
           </div>
           <div className="mb-3">
             <label htmlFor={`lastName${index}`} className="form-label">
-              Lastname
+              Lastname<span className="text-danger">*</span>
             </label>
             <input
               id={`lastName${index}`}
@@ -85,7 +85,7 @@ function Create() {
           </div>
           <div className="mb-3">
             <label htmlFor={`email${index}`} className="form-label">
-              Email address
+              Email address<span className="text-danger">*</span>
             </label>
             <input
               id={`email${index}`}
@@ -99,7 +99,7 @@ function Create() {
           </div>
           <div className="mb-3">
             <label htmlFor={`phone${index}`} className="form-label">
-              Phone
+              Phone<span className="text-danger">*</span>
             </label>
             <input
               id={`phone${index}`}
