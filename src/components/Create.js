@@ -122,7 +122,7 @@ function Create() {
           className="btn btn-primary"
           onClick={handleAddNew}
         >
-          Add New
+          Add More
         </button>
         <button
           type="button"
